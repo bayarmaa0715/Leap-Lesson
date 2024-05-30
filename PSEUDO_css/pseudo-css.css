@@ -1,0 +1,78 @@
+h1 {
+  border-width: 2px;
+  border-color: green;
+  border-style: solid;
+  width: 300px;
+  text-align: center;
+}
+h1::first-letter {
+  color: red;
+  font-size: 100px;
+  text-align: start;
+  background-color: yellow;
+  border-bottom: 20px;
+  border-bottom-color: red;
+  border-bottom-style: solid;
+  border-bottom-width: 7px;
+}
+p {
+  width: 300px;
+  flex-wrap: wrap;
+}
+p::before {
+  content: "Hello world";
+  color: green;
+  font-weight: bold;
+  background-color: aquamarine;
+}
+p::after {
+  content: "bey world";
+  color: rgb(13, 0, 128);
+  font-weight: bold;
+  background-color: aquamarine;
+}
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+input:focus {
+  background-color: rgb(77, 65, 207);
+}
+#b1:hover {
+  background-color: aqua;
+  transition: 0.6s;
+}
+#b2:active {
+  background-color: red;
+}
+.email:valid {
+  color: green;
+}
+.email:invalid {
+  color: red;
+}
+ul li::before {
+  content: "\270C";
+  /* unicode ashiglad temdegtee olj awna   \4digit   \2614  */
+  color: green;
+  margin-right: 30px;
+}
+ul {
+  list-style: none;
+  /* gap: 20px; */
+}
+.c1 {
+  transition-duration: 80ms;
+  transition-timing-function: linear;
+}
+.c1:hover {
+  background-color: rebeccapurple;
+  width: 300px;
+}
+.c2 {
+  transition-timing-function: ease;
+}
+.c2:hover {
+  background-color: rebeccapurple;
+  width: 300px;
+}

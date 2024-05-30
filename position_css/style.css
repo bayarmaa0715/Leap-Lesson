@@ -1,0 +1,110 @@
+body{
+    height: 9000vh;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.258);
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 3;
+    background-color: yellowgreen;
+}
+
+.box1{
+    background-color: red;
+    position: static;
+    margin: 30px;
+}
+
+.container {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: 90px;
+    align-items: stretch;
+    text-align: center;
+    
+}
+
+.box2{
+    background-color: yellow;
+    position: relative;
+    top: 20px;
+    left: 20px
+    
+}
+
+
+.box3{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box4{
+    background-color: green;
+    position: fixed;
+    top: 300px;
+    right: 0;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    padding: 5px
+}
+.box44{
+    background-color: rgb(50, 207, 218);
+    position: fixed;
+    top: 450px;
+    right: 0;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    padding: 5px;
+}
+
+.box5{
+    background: linear-gradient(red,yellowgreen,blue);
+    position: sticky;
+    top: 0;
+    border-radius: 4%;
+    height: 40px;
+    text-align: center;
+    
+}
+.box6{
+    background-color: rgb(197, 103, 103);
+    position: sticky;
+    top: 0;
+    margin-left: 400px;
+    border-radius: 4%;
+    height: 40px;
+    text-align: center;
+}
+/* .s1{
+    background-color: violet;
+    width: 400px;
+    height: 9000px;
+} */
+.MENU{
+    display: flex;
+    position: sticky;
+    top: 0;
+    margin-left: 600px;
+    z-index: 1;
+
+}
+.MENU P {
+    margin-right: 30PX;
+    background-color: aqua;
+    text-align: center;
+    width: 90px;
+    border-radius: 9%;
+   
+}
+.container p{
+    margin-top: 0;
+    
+}
