@@ -1,0 +1,44 @@
+body{
+    background-color: grey;
+    margin: 0;
+    
+}
+.box1{
+    width: 100vw;
+    height: 50vh;
+    background-color: aqua;
+}
+.box4{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(37, 172, 52);
+}
+.box2{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(17, 57, 216);
+}
+.box3{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(223, 226, 29);
+    border-radius: 45%;
+    background: radial-gradien(220, 104, 104)
+}
+.box5{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(156, 21, 99);
+}
+
+.box6{
+    width: 66%;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.box7{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(121, 95, 209);
+}
